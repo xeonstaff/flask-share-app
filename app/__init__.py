@@ -10,7 +10,6 @@ from models import db as root_db, login_manager, ma
 from flask_cors import CORS
 from helpers import JSONEncoder
 
-from livereload import Server
 
 app = Flask(__name__)
 CORS(app)
